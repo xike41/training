@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: rps-service
-  namespace: '${execution.application}'
+  namespace: default
 spec:
   ports:
     - port: 80
